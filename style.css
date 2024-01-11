@@ -1,0 +1,204 @@
+body {
+    background-color: #040305;
+    font-family: "Inter", sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+#cardPrincipal {
+    border: 2px solid #323133;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*manter no centro*/
+    border-radius: 10px;
+}
+
+#title1 {
+    color: white;
+    font-size: 20px;
+}
+
+#cardTitle{
+    display: flex;
+    vertical-align: middle; /*deixar horizontal*/
+    margin-left: 20px;
+}
+
+#cardTitle img {
+    vertical-align: middle; /*alinha o icone*/
+}
+
+#cardTitle h3 {
+    margin: 30px;
+}
+
+#titleInfos {
+    display: flex;
+    flex-direction: column;
+}
+
+#titleInfos p {
+    margin-left: 30px;
+    margin-top: -25px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #6F6E6F;
+}
+
+#profileImg {
+    position: absolute;
+    top: 165px;
+    left: 20px;
+}
+
+#contact {
+    margin-top: 10px;
+    margin-left: 385px;
+}
+
+#contact button {
+    padding: 8px 10px;
+    border-radius: 50px;
+    border: 1px solid #323133;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: white;
+    color: #040305;
+}
+
+#infosProfile img {
+    vertical-align: middle;
+}
+
+#infosProfile {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #6F6E6F;
+}
+
+#infosProfile p {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+#descProfile {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+#descProfile p {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+
+#descProfile h2 {
+    font-size: 13px;
+    color: white;
+}
+
+.twitch a{
+    color: #955CFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linkedin a{
+    color: #0A83FF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#infosIconsDesc {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#infosIconsDesc p{
+    font-size: 10px;
+    font-weight: 600;
+    color: #6F6E6F;
+}
+
+#jobInfo {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    vertical-align: middle;
+    gap: 4px;
+}
+
+#cityInfo {
+    display: flex;
+    vertical-align: middle;
+    gap: 4px;
+}
+
+#courseInfo {
+    display: flex;
+    vertical-align: middle;
+    gap: 4px;
+}
+
+#curriculumInfo {
+    display: flex;
+    vertical-align: middle;
+    gap: 4px;
+}
+
+#curriculumInfo a {
+    padding-top: 9px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #0FF1A5;
+    text-decoration: none;
+
+}
+
+#infosIconsDesc2 {
+    display: flex;
+    vertical-align: middle;
+    gap: 10px;
+}
+
+#profileFF {
+    margin-left: 20px;
+    display: flex;
+    vertical-align: middle;
+    gap: 10px;
+}
+
+#following {
+    display: flex;
+    vertical-align: middle;
+    gap: 4px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#followers {
+    display: flex;
+    vertical-align: middle;
+    gap: 4px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#f {
+    color: #6F6E6F;
+}
